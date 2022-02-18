@@ -1,0 +1,39 @@
+
+
+
+.section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.opacity-50 {
+    opacity: .5;
+}
+
+.overflow-y-auto {
+    overflow-y: auto;
+}
+
+.remove-hover-underline:hover {
+    text-decoration: none;
+    background-color: var(--light);
+}
+
+
+.bg-cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-hover { 
+    border-bottom: .4rem solid transparent;
+}
+.product-hover:hover {
+    border-bottom: .4rem solid var(--primary);
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+
+
+.cursor-default {
+    cursor: default;
+}
